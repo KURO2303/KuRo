@@ -3,7 +3,7 @@ package com.mycompany.app.New_Folder;
 import java.util.Random;
 import java.util.Scanner;
 
-public class EX3 {
+public class EX3 { 
     public static void main(String[] args){
     Scanner Loop = new Scanner(System.in);
      boolean stop = false;
