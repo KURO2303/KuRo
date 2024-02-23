@@ -6,7 +6,7 @@ public class EX7 {
         for(int i=1; i<=n; i++){
             System.out.println(i);
             if(i==99){
-                break;
+                return;
             }
         }
     }
