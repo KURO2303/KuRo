@@ -3,11 +3,8 @@
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
 
-package com.mycompany.app;
+package com.mycompany.app.New_Folder;
 
-public class Number {
-    public int i;
-   }
 
 public class App {
     public static void main(String[] args) {
