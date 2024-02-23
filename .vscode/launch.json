@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EX9",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.New_Folder.EX9",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "EX8",
             "request": "launch",
             "mainClass": "com.mycompany.app.New_Folder.EX8",
