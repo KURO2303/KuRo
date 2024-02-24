@@ -10,7 +10,7 @@ public class Ex8 {
                 case 1:    
                      System.out.println("n= " + n);
                      break;
-                    case 2: 
+                case 2: 
                      System.out.println("n= " + n );
                 }
          }
