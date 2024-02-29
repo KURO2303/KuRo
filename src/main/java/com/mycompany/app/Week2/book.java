@@ -11,7 +11,9 @@ public class book {
     numPages = p;
     }
     public static void main(String[] args) {
-        book myObj = new book("a", "b", 2); 
+        book myObj = new book("Harry Potter", "J. K. Rowling", 178); 
         System.out.println(myObj.title);
+        System.out.println(myObj.author);
+        System.out.println(myObj.numPages);
     }
    }
