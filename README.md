@@ -1,10 +1,10 @@
 # Kuro
 
-Number of Group ?
+Number of Group 19
 
-Name of Member :?
-
-Please, fill in.
+Name of Member :
+1.Nguyen Gia Bao.
+2.Bui Minh Duc.
 
 # Feedback
 
