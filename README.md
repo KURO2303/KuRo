@@ -1,3 +1,66 @@
+# Kuro
+
+Number of Group ?
+
+Name of Member :?
+
+Please, fill in.
+
+# Feedback
+
+Please write all exercises as  classes without main
+Then revoke it in the main under App.java
+
+thus, at the end you will have the project with plenty of classes, but only One MAIN to run. This will support you to deploy the <b>completed project</b> at the end of the course.
+
+For example
+```
+package com.mycompany.app.New_Folder;
+
+public class EX1 {
+    public static void main(String[] args){ // this line is a Main
+        int n=100;
+        for(int i=1; i<=n; i++){
+            System.out.println(i);
+        }
+    }
+}
+
+
+
+```
+Modify EX1 into 
+```
+package com.mycompany.app.New_Folder;
+
+public class EX1 {
+    public void KuroEx1(){ //this line define EX1's method (not main)
+        int n=100;
+        for(int i=1; i<=n; i++){
+            System.out.println(i);
+        }
+    }
+}
+```
+Then recall / revoke this EX1 in the Main under App.java
+
+```
+package com.mycompany.app.New_Folder;
+import EX1; //because the same package, if not you have to give the whole path
+
+public class App {
+    public static void main(String[] args) {
+    EX1 e = new EX1();
+    e.KuroEx1(); //your method in the class of EX1
+
+
+}
+
+
+```
+
+
+
 # Try Out Development Containers: Java
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)
