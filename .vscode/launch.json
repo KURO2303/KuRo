@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "book",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.book",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "book",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.New_Folder.book",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "EX9",
             "request": "launch",
             "mainClass": "com.mycompany.app.New_Folder.EX9",
