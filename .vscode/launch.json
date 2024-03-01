@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2ClassPractice.App",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "AccessControl_EX6_P2",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl_EX6_P2",
