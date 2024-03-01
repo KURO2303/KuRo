@@ -1,7 +1,7 @@
-package com.mycompany.app.New_Folder;
+package com.mycompany.app.Week1;
 
 public class EX8 {
-    public static void main(String[] args){
+    public void hello(){
     for(int i=1; i<=5; i++){
         switch (i) {
             case 1:
