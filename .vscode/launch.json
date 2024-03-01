@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AccessControl_EX6_P2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl_EX6_P2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AccessControl_EX5_P2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl_EX5_P2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AccessControl_EX5",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl_EX5",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AccessControl_EX1_P2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl_EX1_P2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AccessControlEX1",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControlEX1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week1.App",

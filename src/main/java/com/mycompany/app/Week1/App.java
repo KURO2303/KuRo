@@ -13,6 +13,12 @@ public class App {
         System.out.println(" ");
         System.out.println(" ");
 
+        EX2 ran = new EX2();
+        System.out.println("EX 2: So sanh so ngau nhien");
+        ran.dom();
+        System.out.println(" ");
+        System.out.println(" ");
+
         EX4 number = new EX4();
         System.out.println("EX 4: So nguyen to");
         number.E_N(); 

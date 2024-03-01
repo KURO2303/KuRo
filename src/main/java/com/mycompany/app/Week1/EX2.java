@@ -3,7 +3,7 @@ package com.mycompany.app.Week1;
 import java.util.Random;
 
 public class EX2 {
-    public static void main(String[] args){
+    public void dom(){
         Random rand = new Random();
         for(int i=1; i<=25; i++){
             int randNumber1 = rand.nextInt(100);
