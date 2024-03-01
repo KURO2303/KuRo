@@ -19,6 +19,12 @@ public class App {
         System.out.println(" ");
         System.out.println(" ");
 
+        EX5 in = new EX5();
+        System.out.println("EX 5: So nhi phan");
+        in.inter();
+        System.out.println(" ");
+        System.out.println(" ");
+
         EX7 count2 = new EX7();
         System.out.println("EX 7: Dem den 99 thi stop");
         count2.stop();
