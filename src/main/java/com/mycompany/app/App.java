@@ -4,11 +4,11 @@
  *---------------------------------------------------------------------------------------*/
 
 package com.mycompany.app;
-import com.mycompany.app.Week1_Code2.*;
+import com.mycompany.app.Week2_Code1.*;
 
 public class App {
     public static void main(String[] args) {
-        Java_Each temp = new Java_Each();
-        temp.Duc4();
+        Time temp = new Time();
+        temp.TimeOn();
 }
 }
