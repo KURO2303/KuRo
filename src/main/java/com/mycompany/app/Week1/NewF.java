@@ -1,4 +1,4 @@
-package com.mycompany.app.New_Folder;
+package com.mycompany.app.Week1;
 
 public class NewF {
     static void f(Number m) {

@@ -1,4 +1,4 @@
-package com.mycompany.app.New_Folder;
+package com.mycompany.app.Week1;
 
 public class EX9 {
     public static int fibo(int n){
@@ -16,9 +16,9 @@ public class EX9 {
         }
         return z;
     }
-    public static void main(String[] args){
+    public void fin(){
         for (int i=0; i<=5; i++){
-            System.out.println(fibo(i));
+            System.out.print(fibo(i)+" ");
 }
 }
 }

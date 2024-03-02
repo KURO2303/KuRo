@@ -1,4 +1,4 @@
-package com.mycompany.app.New_Folder;
+package com.mycompany.app.Week1;
 
 public class EX4 {
     public static boolean Number(int n){
@@ -13,10 +13,10 @@ public class EX4 {
         }
         return true;
     }
-     public static void main(String[] args){
+     public void E_N(){
         for(int i=0; i<100; i++){
             if(Number(i)==true){
-                    System.out.println(i);
+                    System.out.print(i+" ");
                 }
         }
 }
