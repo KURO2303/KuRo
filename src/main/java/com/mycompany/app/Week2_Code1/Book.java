@@ -4,15 +4,17 @@ public class Book {
     String title;
     String author;
     int numPages;
- Book() { } ; // default constructor
+ Book() { } ; 
     public Book(String t, String a, int p) {
         title = t;
         author = a;
         numPages = p;
     }
     public static void main(String[] args) {
-        Book myObj = new Book("a","b",2); //New book
-        System.out.println(myObj.title);
+        Book DucBook = new Book("The Silence of the Lambs","Thomas Harris",192); 
+        System.out.println(DucBook.title);
+        System.out.println(DucBook.author);
+        System.out.println(DucBook.numPages);
     }
     
 }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Book",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code1.Book",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "book",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2.book",
