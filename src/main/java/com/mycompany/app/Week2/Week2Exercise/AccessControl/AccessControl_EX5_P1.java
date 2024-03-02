@@ -1,10 +1,10 @@
 package com.mycompany.app.Week2.Week2Exercise.AccessControl;
 
 public class AccessControl_EX5_P1 {
-    int a=10;
-    public int b = 10;
-    //private int c = 20; //when using private, c is indicate as unused :))) 
-    protected int d = 30;
+    int a;
+    public int b;
+    //private int c; //when using private, c is indicate as unused :))) 
+    protected int d;
 
     void NormalAccess() {
         System.out.println("KURO");
