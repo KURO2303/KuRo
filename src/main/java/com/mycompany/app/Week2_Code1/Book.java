@@ -11,7 +11,7 @@ public class Book {
         numPages = p;
     }
     public static void main(String[] args) {
-        Book DucBook = new Book("The Silence of the Lambs","Thomas Harris",192); 
+        Book DucBook = new Book("The Silence of the Lambs","Thomas Harris",195); 
         System.out.println(DucBook.title);
         System.out.println(DucBook.author);
         System.out.println(DucBook.numPages);
