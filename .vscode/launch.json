@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterfacesEx12",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.Interfaces.InterfacesEx12",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InterfacesEx4",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.Interfaces.InterfacesEx4",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "InitializationCleanupEx19",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx19",

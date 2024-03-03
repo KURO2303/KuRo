@@ -10,5 +10,6 @@ public class App {
     public static void main(String[] args) {
         InitializationCleanupEx3 temp = new InitializationCleanupEx3();
         temp.Messenger();
+        
 }
 }
