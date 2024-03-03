@@ -2,6 +2,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InitializationCleanupEx19",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx19",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx18",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx18",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx17",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx17",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx12",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx12",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx10",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx10",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx9",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx9",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx8",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx8",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx6",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx6",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx7",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx7",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx5",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx5",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "InitializationCleanupEx2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2_Code2.InitializationCleanup.InitializationCleanupEx2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Book",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2_Code1.Book",

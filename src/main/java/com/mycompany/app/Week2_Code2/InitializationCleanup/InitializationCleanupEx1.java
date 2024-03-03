@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2_Code2;
+package com.mycompany.app.Week2_Code2.InitializationCleanup;
 
 public class InitializationCleanupEx1 {
     private char[] String;

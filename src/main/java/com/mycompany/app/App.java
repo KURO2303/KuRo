@@ -4,11 +4,11 @@
  *---------------------------------------------------------------------------------------*/
 
 package com.mycompany.app;
-import com.mycompany.app.Week2_Code1.*;
+import com.mycompany.app.Week2_Code2.InitializationCleanup.*;
 
 public class App {
     public static void main(String[] args) {
-        Time temp = new Time();
-        temp.TimeOn();
+        InitializationCleanupEx3 temp = new InitializationCleanupEx3();
+        temp.Messenger();
 }
 }
