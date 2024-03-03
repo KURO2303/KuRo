@@ -2,6 +2,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PolyConstructors",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX15.PolyConstructors",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceCounting",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX13.ReferenceCounting",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism_EX12",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX12",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "sandwich",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX11.sandwich",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "sandwich",
+            "request": "launch",
+            "mainClass": "sandwich",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism_EX10",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX10",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism_EX5",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX5",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism_EX1",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "ReusingClasses_EX10",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX10",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "ReusingClasses_EX9",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX9",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "ReusingClasses_EX7",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX7",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "KuroD",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.KuroD",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "KuroB",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.KuroB",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "scissor",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.scissor",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "ReusingClasses_EX3",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX3",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Sterilizer",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX2.Sterilizer",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AccessControl_EX1_P2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl.AccessControl_EX1_P2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "AccessControl_EX5_P2",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2.Week2Exercise.AccessControl.AccessControl_EX5_P2",
@@ -166,7 +285,7 @@
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopOnEntry": false,
             "mainClass": "com.mycompany.app.App",
             "args": "",

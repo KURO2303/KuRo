@@ -1,9 +1,9 @@
 package com.mycompany.app.Week2.Week2Exercise.AccessControl;
 
-public class AccessControl_EX5_P1 {
+public class AccessControl_EX5 {
     int a;
     public int b;
-    //private int c; //when using private, c is indicate as unused :))) 
+    //private int c; //when using private, c is indicate as unused (dunno why) :))) 
     protected int d;
 
     void NormalAccess() {
