@@ -4,9 +4,9 @@ class Root{
 	Root(int i){ 
         System.out.println("Root("+i+")");
     }
-	Component1 A;
-	Component2 B;
-	Component3 C;
+	Component1 A1;
+	Component2 B2;
+	Component3 C3;
 }
 
 class Stem extends Root{
@@ -14,9 +14,9 @@ class Stem extends Root{
         super(i);
         System.out.println("Stem("+i*10+")"); 
     }
-	Component1 a;
-	Component2 b;
-	Component3 c;
+	Component1 a1;
+	Component2 b2;
+	Component3 c3;
 }
 
 class Component1{

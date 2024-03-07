@@ -1,6 +1,6 @@
 package com.mycompany.app.Week2.Week2Exercise.Polymorphism;
 
-class Rodent{
+class rodent{
     public void eat(){
         System.out.println("Rodent eating nut");
     }
@@ -8,7 +8,7 @@ class Rodent{
         System.out.println("Rodent sleeping tight");
     }
 }
-class Mouse extends Rodent{
+class mouse extends rodent{
     public void eat(){
         System.out.println("Mouse eating cheese");
     }
@@ -16,7 +16,7 @@ class Mouse extends Rodent{
         System.out.println("Mouse sleeping in hole");
     }
 }
-class Gerbil extends Rodent{
+class gerbil extends rodent{
     public void eat(){
         System.out.println("Gerbil eating berries");
     }
@@ -24,7 +24,7 @@ class Gerbil extends Rodent{
         System.out.println("Gerbil sleeping in bushes");
     }
 }
-class Hamster extends Rodent{
+class hamster extends rodent{
     public void eat(){
         System.out.println("Hamster eating food");
     }
@@ -34,11 +34,11 @@ class Hamster extends Rodent{
 }
     public class Polymorphism_EX9{
         public void mice(){
-            Rodent[] rodents = new Rodent[3];
-            rodents[0] = new Mouse();
-            rodents[1] = new Gerbil();
-            rodents[2] = new Hamster();
-            for (Rodent rodent : rodents) {
+            rodent[] rodents = new rodent[3];
+            rodents[0] = new mouse();
+            rodents[1] = new gerbil();
+            rodents[2] = new hamster();
+            for (rodent rodent : rodents) {
                 rodent.eat();
                 rodent.sleep();
                 System.out.println();
