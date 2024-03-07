@@ -1,16 +1,16 @@
 package com.mycompany.app.Week2.Week2Exercise.ReusingClasses;
 
-class kuroA{
-	kuroA(int i){ 
+class kuro1{
+	kuro1(int i){ 
         System.out.println("KURO("+i+")"); 
     }
 }
-class  kuroB extends kuroA{
-	kuroB(){
+class kuro2 extends kuro1{
+	kuro2(){
 		super(0);
 		System.out.println("KURO()");
     }
-	kuroB(int i){
+	kuro2(int i){
 		super(i);
 		System.out.println("KURO("+i+")"); 
     }
@@ -18,8 +18,8 @@ class  kuroB extends kuroA{
 public class ReusingClasses_EX8 {
     public static void main(String[] args) {
 		@SuppressWarnings("unused")
-        kuroB A = new kuroB();
+        kuro2 A = new kuro2();
 		@SuppressWarnings("unused")
-        kuroB B = new kuroB(128);
+        kuro2 B = new kuro2(128);
 	}
 }

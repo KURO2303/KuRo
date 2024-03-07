@@ -1,7 +1,7 @@
 package com.mycompany.app.Week2.Week2Exercise.ReusingClasses;
 
-class root{
-	root(){ 
+class root1{
+	root1(){ 
         System.out.println("Root()"); 
     }
 	Component1 A;
@@ -9,8 +9,8 @@ class root{
 	Component3 C;
 }
 
-class stem extends root{
-	stem(){ 
+class stem1 extends root1{
+	stem1(){ 
         System.out.println("Stem()"); 
     }
 	Component1 a;
@@ -38,6 +38,6 @@ class Component3{
 public class ReusingClasses_EX9 {
     public static void main(String[] args) {
 		@SuppressWarnings("unused")
-        stem stem = new stem();
+        stem1 stem = new stem1();
 	}
 }

@@ -1,10 +1,10 @@
 package com.mycompany.app.Week2.Week2Exercise.ReusingClasses;
 
-class Root1 {
+class Root2 {
 	Component1 component1A;
 	Component2 component2B;
 	Component3 component3C;
-	Root1() {
+	Root2() {
 		System.out.println("Root()");
 		component1A = new Component1();
 		component2B = new Component2();
@@ -19,11 +19,11 @@ class Root1 {
 	
 }
 
-class Stem1 extends Root1 {
+class Stem2 extends Root2 {
 	Component1 component1a;
 	Component2 component2b;
 	Component3 component3c;
-	Stem1(){
+	Stem2(){
 		super();
 		System.out.println("Stem()");
 		component1a = new Component1();
@@ -56,7 +56,7 @@ class Component3 {
 
 public class ReusingClasses_EX12 {
     public static void main(String[] args) {
-		Stem1 stem = new Stem1();
+		Stem2 stem = new Stem2();
 		System.out.println("****************");
 		try {
 			System.out.println("Hello");
