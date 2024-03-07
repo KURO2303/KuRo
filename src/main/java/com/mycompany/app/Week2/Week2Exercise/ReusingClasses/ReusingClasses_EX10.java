@@ -1,12 +1,15 @@
 package com.mycompany.app.Week2.Week2Exercise.ReusingClasses;
 
+import javax.swing.plaf.basic.BasicSliderUI.ComponentHandler;
+
+@SuppressWarnings("unused")
 class Root{
 	Root(int i){ 
         System.out.println("Root("+i+")");
     }
-	Component1 A1;
-	Component2 B2;
-	Component3 C3;
+	ComponentHandler1 A1;
+	ComponentHandler2 B2;
+	ComponentHandler3 C3;
 }
 
 class Stem extends Root{
@@ -14,25 +17,25 @@ class Stem extends Root{
         super(i);
         System.out.println("Stem("+i*10+")"); 
     }
-	Component1 a1;
-	Component2 b2;
-	Component3 c3;
+	ComponentHandler1 a1;
+	ComponentHandler2 b2;
+	ComponentHandler3 c3;
 }
 
-class Component1{
-	Component1(int i){ 
+class ComponentHandler1{
+	ComponentHandler1(int i){ 
         System.out.println("1"+i); 
     }
 }
 
-class Component2{
-	Component2(int i){ 
+class ComponentHandler2{
+	ComponentHandler2(int i){ 
         System.out.println("2"+i); 
     }
 }
 
-class Component3{
-	Component3(int i){ 
+class ComponentHandler3{
+	ComponentHandler3(int i){ 
         System.out.println("3"+i); 
     }
 }

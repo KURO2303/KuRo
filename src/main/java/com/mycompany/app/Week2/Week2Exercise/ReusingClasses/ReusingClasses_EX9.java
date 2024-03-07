@@ -34,6 +34,7 @@ class Component3{
 	Component3(){ 
         System.out.println("3"); 
     }
+
 }
 public class ReusingClasses_EX9 {
     public static void main(String[] args) {
