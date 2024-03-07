@@ -16,7 +16,7 @@ public class InitializationCleanupEx12 {
         }
         public static void main(String[] args) {
             // Create a Horse object
-            Horse horse = new Horse(false);
+            InitializationCleanupEx12 horse = new InitializationCleanupEx12(false);
             System.gc();
         }
 }

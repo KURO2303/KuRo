@@ -1,8 +1,5 @@
 package com.mycompany.app.Week2_Code2.Interfaces;
 
-import polymorphism.music.Note;
-import static net.mindview.util.Print.*;
-
 abstract class Instrument {
 	private int i; 
 	public abstract void play(Note n);
