@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-import com.mycompany.app.Week2.Week2ClassPractice.book;
+/*import com.mycompany.app.Week2.Week2ClassPractice.book;
 import com.mycompany.app.Week2.Week2ClassPractice.recursion;
 import com.mycompany.app.Week2.Week2ClassPractice.time;
 import com.mycompany.app.Week2.Week2Exercise.AccessControl.AccessControl_EX1;
@@ -14,15 +14,18 @@ import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX9;
 import com.mycompany.app.Week2.Week2Exercise.ReusingClasses.ReusingClasses_EX1;
 import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX11.sandwich;
 import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX13.ReferenceCounting;
-import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX15.PolyConstructors;
+import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX15.PolyConstructors;*/
+import com.mycompany.app.Week3.Week3ClassPractice.DisruptLecture;
+import com.mycompany.app.Week3.Week3ClassPractice.GlyphTest;
+import com.mycompany.app.Week3.Week3ClassPractice.TestArithmetic;
 
-import Debug.KUROdebug;
+//import Debug.KUROdebug;
 //import Debugoff.KUROdebug;
 
 public class App {
     public static void main(String[] args) {
 
-        //week 2 class practice
+        /*//week 2 class practice
         book myObj = new book();
         myObj.an();
 
@@ -115,6 +118,25 @@ public class App {
         //EXERCISE 15
         PolyConstructors Poly = new PolyConstructors();
         Poly.constructor();
-        
+        */
+
+
+        //WEEK 3
+        //CLASS PRACTICE
+        //DisruptLecture
+        DisruptLecture P = new DisruptLecture();
+        P.hone();
+        System.out.println(" ");
+
+        //TestArithmetic
+        TestArithmetic Test = new TestArithmetic();
+        Test.Arithmetic();
+        System.out.println(" ");
+
+        //GlyphTest
+        GlyphTest Glyph = new GlyphTest();
+        Glyph.Test();
+
+        //Transmogrify
     }
 }
