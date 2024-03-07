@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Transmogrify",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.Week3.Week3ClassPractice.Transmogrify",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "MyMethod",
             "request": "launch",
             "mainClass": "com.mycompany.app.Week2.Week2W3School.MyMethod",

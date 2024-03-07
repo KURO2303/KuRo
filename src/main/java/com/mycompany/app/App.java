@@ -18,6 +18,7 @@ import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Polymorphism_EX15.Poly
 import com.mycompany.app.Week3.Week3ClassPractice.DisruptLecture;
 import com.mycompany.app.Week3.Week3ClassPractice.GlyphTest;
 import com.mycompany.app.Week3.Week3ClassPractice.TestArithmetic;
+import com.mycompany.app.Week3.Week3ClassPractice.Transmogrify;
 
 //import Debug.KUROdebug;
 //import Debugoff.KUROdebug;
@@ -136,8 +137,10 @@ public class App {
         //GlyphTest
         GlyphTest Glyph = new GlyphTest();
         Glyph.Test();
+        System.out.println(" ");
 
         //Transmogrify
-        
+        Transmogrify trans = new Transmogrify();
+        trans.morgrifty();
     }
 }
