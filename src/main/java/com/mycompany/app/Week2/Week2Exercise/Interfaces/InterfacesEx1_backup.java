@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class InterfacesEx1_backup {
     private Random rand = new Random();
-	public Rodent next() {
+	public RodentEx7 next() {
 		switch(rand.nextInt(3)) {
 			default:
-			case 0: return new Mouse();
-			case 1: return new Rat();
-			case 2: return new Squirrel();			
+			case 0: return new MouseEx7();
+			case 1: return new RatEx7();
+			case 2: return new SquirrelEx7();			
 		}
     	}
 }
