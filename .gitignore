@@ -332,3 +332,5 @@ ASALocalRun/
 *.DS_Store
 
 target
+src/main/java/com/mycompany/app/New_Folder/App.java
+src/main/java/com/mycompany/app/New_Folder/App.java
