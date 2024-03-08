@@ -6,7 +6,7 @@
 
 package com.mycompany.app;
 import com.mycompany.app.Week2_Code2.InitializationCleanup.*;
-package com.mycompany.app;
+
 
 /*import com.mycompany.app.Week2.Week2ClassPractice.book;
 import com.mycompany.app.Week2.Week2ClassPractice.recursion;

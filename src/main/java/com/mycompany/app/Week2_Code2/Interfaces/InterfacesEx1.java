@@ -1,6 +1,7 @@
 package com.mycompany.app.Week2_Code2.Interfaces;
 
 abstract class Rodent {
+	@SuppressWarnings("unused")
 	private String name = "Rodent";
 	abstract protected void eat(); 
 	abstract protected void run(); 
