@@ -1,22 +1,29 @@
 package com.mycompany.app.Week2_Code2.InitializationCleanup;
 
+class Tank{
+	boolean filled = false;
+public void fill(){
+		filled = true;
+	}
+	public void empty(){
+		filled = false;
+	}
+	protected void finalize() {
+		if(filled)
+		System.out.println("Full tank!");
+	}
+}
 public class InitializationCleanupEx12 {
-        private boolean inStable;
-        public void Horse(boolean inStable) {
-            this.inStable = inStable;
-        }
-        @Override
-        protected void finalize() {
-            try {
-                if (!inStable) {
-                    System.out.println("Error: A horse is out of its stable!");
-                }
-            } catch (Throwable throwable) {
-            }
-        }
-        public static void main(String[] args) {
-            // Create a Horse object
-            InitializationCleanupEx12 horse = new InitializationCleanupEx12(false);
-            System.gc();
-        }
+	public static void main(String[] args){
+		Tank bigtank = new Tank();
+		System.out.println("Fillness tank is: " + bigtank.filled);
+		bigtank.fill();
+		System.out.println("Filled fillness is: " + bigtank.filled);
+		System.gc();
+		new Tank();
+		System.out.println("Respawn tank is: " + bigtank.filled);
+		bigtank.empty();
+		System.out.println("Emptied fillness is: " + bigtank.filled);
+		System.gc(); 
+	}
 }
