@@ -1,3 +1,11 @@
+
+/*----------------------------------------------------------------------------------------
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License. See LICENSE in the project root for license information.
+ *---------------------------------------------------------------------------------------*/
+
+package com.mycompany.app;
+import com.mycompany.app.Week2_Code2.InitializationCleanup.*;
 package com.mycompany.app;
 
 /*import com.mycompany.app.Week2.Week2ClassPractice.book;
@@ -25,6 +33,8 @@ import com.mycompany.app.Week3.Week3ClassPractice.Transmogrify;
 
 public class App {
     public static void main(String[] args) {
+      InitializationCleanupEx3 temp = new InitializationCleanupEx3();
+        temp.Messenger();
 
         /*//week 2 class practice
         book myObj = new book();
@@ -143,4 +153,5 @@ public class App {
         Transmogrify trans = new Transmogrify();
         trans.morgrifty();
     }
+
 }

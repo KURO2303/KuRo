@@ -1,6 +1,6 @@
 # Kuro
 
-Number of Group 19
+Number of Group:  19
 
 Name of Member :
 1.Nguyen Gia Bao.
