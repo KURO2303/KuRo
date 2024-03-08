@@ -5,6 +5,7 @@ public class InitializationCleanupEx10 {
         System.out.println("Finalize methods called");
     }
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         InitializationCleanupEx10 demo = new InitializationCleanupEx10();
         demo = null;// Mark the object for garbage collection
         System.gc();// Explicitly request garbage collection

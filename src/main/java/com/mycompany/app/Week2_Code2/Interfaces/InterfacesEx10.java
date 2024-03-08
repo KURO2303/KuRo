@@ -1,68 +1,58 @@
 package com.mycompany.app.Week2_Code2.Interfaces;
 
-interface Instrument {
-	int VALUE = 5; // static and final
-	void adjust(); 
+import 
+
+interface Playable{
+	abstract void play(Note n);
 }
 
-interface Playable<Note> {
-	void play(Note n); // Automatically public
+abstract class Instrumentt{		//An abstract class to inherit from
+	abstract public String toString();	//Had to specify "public" level
+	abstract void adjust();
 }
 
-class Wind implements Instrument, Playable {
+class Windd extends Instrumentt implements Playable {
 	public void play(Note n) {
-		print(this + ".play() " + n);
+		System.out.println(this + ".play() " + n);
 	}
 	public String toString() { return "Wind"; }
-	public void adjust() { print(this + ".adjust()"); }
-    private void print(String string) {}
-    @Override public void play(Object n) {}
+	public void adjust() { System.out.println(this + ".adjust()"); }
 }
-
-
-class Percussion implements Instrument, Playable {
+class Percussionn extends Instrumentt implements Playable {
 	public void play(Note n) {
-		print(this + ".play() " + n);
+		System.out.println(this + ".play() " + n);
 	}
 	public String toString() { return "Percussion"; }
-	public void adjust() { print(this + ".adjust()"); }
+	public void adjust() { System.out.println(this + ".adjust()"); }
 }
-
-class Stringed implements Instrument, Playable {
+class Stringedd extends Instrumentt implements Playable {
 	public void play(Note n) {
-		print(this + ".play() " + n);
+		System.out.println(this + ".play() " + n);
 	}
 	public String toString() { return "Stringed"; }
-	public void adjust() { print(this + ".adjust()"); }
+	public void adjust() { System.out.println(this + ".adjust()"); }
 }
-
-class Brass extends Wind {
+class Brasss extends Windd {
 	public String toString() { return "Brass"; }
 }
-
-class Woodwind extends Wind {
-	public String toString() { return "Woodwing"; }
+class Woodwindd extends Windd {
+	public String toString() { return "Woodwind"; }
 }
-
-public class InterfacesEx10 {
-	// Doesn't care about type, so new types
-	// added to the system will work right:
-	static void tune(Playable p) {
-		//...
-		p.play(Note.MIDDLE_C);
+public class Exercise10 {
+	static void tune(Playable i) {		//Accepts Playable now
+		i.play(Note.MIDDLE_C);
 	}
 	static void tuneAll(Playable[] e) {
-		for(Playable p : e)
-			tune(p);
+		for(Playable i : e)
+			tune(i);
 	}
 	public static void main(String[] args) {
-		// Upcasting during addition to the array:
 		Playable[] orchestra = {
-			new Wind(),
-			new Percussion(),
-			new Stringed(),
-			new Brass(),
-			new Woodwind()
+				new Windd(),
+				new Percussionn(),
+				new Stringedd(),
+				new Brasss(),
+				new Woodwindd()
 		};
 		tuneAll(orchestra);
 	}

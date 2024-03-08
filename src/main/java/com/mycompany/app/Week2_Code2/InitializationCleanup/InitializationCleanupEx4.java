@@ -17,6 +17,7 @@ public class InitializationCleanupEx4 {
         System.out.println("Message: " + message);
     }
 
+    @SuppressWarnings("unused")
     public void Printer(String[] args) {
         InitializationCleanupEx4 Printer1 = new InitializationCleanupEx4();
         InitializationCleanupEx4 Printer2 = new InitializationCleanupEx4("Another message :v");

@@ -1,6 +1,6 @@
 package com.mycompany.app.Week2_Code2.Interfaces;
 
-import static org.greggordon.tools.Print.*;
+import static com.mycompany.app.Week2_Code2.tools.Print.*;
 
 interface Cycle {
 	void ride();

@@ -8,6 +8,8 @@ abstract class Instrument {
 }
 
 class Wind extends Instrument {
+	private void print(String string) {
+	}
 	public void play(Note n) {
 		print(this + ".play() " + n);
 	}
@@ -16,6 +18,8 @@ class Wind extends Instrument {
 }
 
 class Percussion extends Instrument {
+	private void print(String string) {
+	}
 	public void play(Note n) {
 		print(this + ".play() " + n);
 	}
@@ -24,6 +28,8 @@ class Percussion extends Instrument {
 }
 
 class Stringed extends Instrument {
+	private void print(String string) {
+	} 
 	public void play(Note n) {
 		print(this + ".play() " + n);
 	}
@@ -40,10 +46,7 @@ class Woodwind extends Wind {
 }
 
 public class InterfacesEx9 {
-	// Doesn't care about type, so new types
-	// added to the system will work right:
 	static void tune(Instrument i) {
-		//...
 		i.play(Note.MIDDLE_C);
 	}
 	static void tuneAll(Instrument[] e) {
@@ -51,7 +54,6 @@ public class InterfacesEx9 {
 			tune(i);
 	}
 	public static void main(String[] args) {
-		// Upcasting during addition to the array:
 		Instrument[] orchestra = {
 			new Wind(),
 			new Percussion(),

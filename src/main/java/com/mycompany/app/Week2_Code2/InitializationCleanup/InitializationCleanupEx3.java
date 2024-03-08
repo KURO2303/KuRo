@@ -6,6 +6,7 @@ public class InitializationCleanupEx3 {
     }
 
     public void Printer(){
+        @SuppressWarnings("unused")
         InitializationCleanupEx3 Messenger = new InitializationCleanupEx3();
     }
 }
