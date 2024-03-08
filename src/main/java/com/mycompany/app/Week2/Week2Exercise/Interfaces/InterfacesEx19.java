@@ -1,6 +1,7 @@
-package com.mycompany.app.Week2.Week2Exercise.Interfaces;
+package com.mycompany.app.Week2_Code2.Interfaces;
 
 import java.util.*;
+import static org.greggordon.tools.Print.*;
 
 interface Games {
 	void play();
@@ -13,11 +14,11 @@ interface GamesFactory {
 class CoinToss implements Games {
 	Random rand = new Random();
 	public void play() { 
-		System.out.print("Toss Coin: ");
+		print("Toss Coin: ");
 		switch(rand.nextInt(2)) {
-			case 0 : System.out.println("Heads"); return;
-			case 1 : System.out.println("Tails"); return;
-			default: System.out.println("OnEdge"); return;
+			case 0 : println("Heads"); return;
+			case 1 : println("Tails"); return;
+			default: println("OnEdge"); return;
 		} 
 	}
 }
@@ -31,7 +32,7 @@ class CoinTossFactory implements GamesFactory {
 class DiceThrow implements Games {
 	Random rand = new Random();
 	public void play() { 
-		System.out.print("Throw Dice: " + (rand.nextInt(6) + 1));		
+		print("Throw Dice: " + (rand.nextInt(6) + 1));		
 	}
 }
 

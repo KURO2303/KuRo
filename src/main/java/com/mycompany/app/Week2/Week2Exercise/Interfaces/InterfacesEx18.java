@@ -9,8 +9,9 @@ interface CycleFactory {
 }
 
 class Unicycle implements Cycle {
-	public void ride() { 
-		System.out.println("Ride Unicycle"); 
+	public void ride() { println("Ride Unicycle"); 
+	}
+	private void println(String string) {
 	}
 }
 
@@ -21,8 +22,9 @@ class UnicycleFactory implements CycleFactory {
 }
 
 class Bicycle implements Cycle {
-	public void ride() { 
-		System.out.println("Ride Bicycle"); 
+	public void ride() { println("Ride Bicycle");
+	}
+	private void println(String string) {
 	}
 }
 
@@ -34,11 +36,10 @@ class BicycleFactory implements CycleFactory {
 
 
 class Tricycle implements Cycle {
-	Tricycle() { 
-		System.out.println("Tricycle()"); 
+	Tricycle() { println("Tricycle()"); }
+	public void ride() { println("Ride Tricycle"); 
 	}
-	public void ride() { 
-		System.out.println("Ride Tricycle"); 
+	private void println(String string) {
 	}
 }
 
