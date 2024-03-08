@@ -1,7 +1,5 @@
 package com.mycompany.app.Week2_Code2.Interfaces;
 
-import static com.mycompany.app.Week2_Code2.tools.Print.*;
-
 interface Cycle {
 	void ride();
 }
@@ -11,7 +9,10 @@ interface CycleFactory {
 }
 
 class Unicycle implements Cycle {
-	public void ride() { println("Ride Unicycle"); }
+	public void ride() { println("Ride Unicycle"); 
+	}
+	private void println(String string) {
+	}
 }
 
 class UnicycleFactory implements CycleFactory {
@@ -21,7 +22,10 @@ class UnicycleFactory implements CycleFactory {
 }
 
 class Bicycle implements Cycle {
-	public void ride() { println("Ride Bicycle"); }
+	public void ride() { println("Ride Bicycle");
+	}
+	private void println(String string) {
+	}
 }
 
 class BicycleFactory implements CycleFactory {
@@ -33,7 +37,10 @@ class BicycleFactory implements CycleFactory {
 
 class Tricycle implements Cycle {
 	Tricycle() { println("Tricycle()"); }
-	public void ride() { println("Ride Tricycle"); }
+	public void ride() { println("Ride Tricycle"); 
+	}
+	private void println(String string) {
+	}
 }
 
 class TricycleFactory implements CycleFactory {
@@ -42,7 +49,7 @@ class TricycleFactory implements CycleFactory {
 	}
 }
 
-public class Cycles {
+public class InterfacesEx18 {
 	public static void rideCycle(CycleFactory factory) {
 		Cycle c = factory.getCycle();
 		c.ride();
