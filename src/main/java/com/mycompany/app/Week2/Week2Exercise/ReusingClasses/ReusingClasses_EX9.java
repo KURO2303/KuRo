@@ -4,34 +4,34 @@ class root1{
 	root1(){ 
         System.out.println("Root()"); 
     }
-	Component1 A;
-	Component2 B;
-	Component3 C;
+	Component1ex9 A;
+	Component2ex9 B;
+	Component3ex9 C;
 }
 
 class stem1 extends root1{
 	stem1(){ 
         System.out.println("Stem()"); 
     }
-	Component1 a;
-	Component2 b;
-	Component3 c;
+	Component1ex9 a;
+	Component2ex9 b;
+	Component3ex9 c;
 }
 
-class Component1{
-	Component1(){ 
+class Component1ex9{
+	Component1ex9(){ 
         System.out.println("1"); 
     }
 }
 
-class Component2{
-	Component2(){ 
+class Component2ex9{
+	Component2ex9(){ 
         System.out.println("2"); 
     }
 }
 
-class Component3{
-	Component3(){ 
+class Component3ex9{
+	Component3ex9(){ 
         System.out.println("3"); 
     }
 
