@@ -41,8 +41,8 @@ public class InterfacesEx1 {
     private static void println(String string) {
     }
 	public static void main(String[] args) {
-		RodentEx7 rodents = new RodentEx7[];
-		for(RodentEx7 r : rodents) {
+		RodentEx7[] rodentcheck = new RodentEx7[];
+		for(RodentEx7 r : rodentcheck ) {
 			r = gen.next();
 			println(r + ": ");
 			r.eat();

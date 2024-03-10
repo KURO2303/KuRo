@@ -63,6 +63,6 @@ public class InterfacesEx9 {
 			new Brass(),
 			new Woodwind()
 		};
-		tuneAll(orchestra);
+		tuneAll(orchestra);	
 	}
 }
