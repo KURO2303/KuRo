@@ -12,7 +12,7 @@ class Son extends Dad {
 }
 
 public class InterfacesEx3 {
-	public static void main(String[] args) {
+	public void n() {
 		Son s = new Son();
 		s.print();
 	}

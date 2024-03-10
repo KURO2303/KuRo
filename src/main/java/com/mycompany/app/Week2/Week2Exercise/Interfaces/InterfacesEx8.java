@@ -55,7 +55,7 @@ package com.mycompany.app.Week2.Week2Exercise.Interfaces;
         public void softDrink(){
             print("Soft Drink");
         }
-        public static void main(String[] args) {
+        public void nch() {
             InterfacesEx8 s = new InterfacesEx8();
             s.cheeseburger();
             s.fries();

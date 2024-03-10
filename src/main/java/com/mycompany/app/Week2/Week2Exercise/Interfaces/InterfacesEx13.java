@@ -24,7 +24,7 @@ class Doer implements CanDoMost {
 }
 
 public class InterfacesEx13 {
-	public static void main(String[] args) {
+	public void doer() {
 		Doer d = new Doer();
 		((CanDoMore)d).doMore();
 		((CanDoFaster)d).doFaster();

@@ -26,7 +26,7 @@ public class InterfacesEx4 {
 	public static void secondTestPrint(Hadd2 sd) {
 		sd.print();
 	}
-	public static void main(String[] args) {
+	public  void uc() {
 		Kuro s = new Kuro();
 		InterfacesEx4.testPrint(s);
 		Kuro2 ss = new Kuro2();

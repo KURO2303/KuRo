@@ -40,7 +40,7 @@ public class InterfacesEx1 {
 	private static InterfacesEx7_backup gen = new InterfacesEx7_backup();
     private static void println(String string) {
     }
-	public static void main(String[] args) {
+	public void X1() {
 		RodentEx1[] rodents = new RodentEx1[10];
 		for(RodentEx1 r : rodents) {
 			r = (RodentEx1) gen.next();

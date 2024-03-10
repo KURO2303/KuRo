@@ -21,7 +21,7 @@ class SwapAdapter implements Processor {
     }
 }
 public class InterfacesEx11 {
-    public static void main(String[] args) {
+    public void ap() {
         Apply.process(new SwapAdapter(), "KURO");
         Apply.process(new SwapAdapter(), "Duc");
     }

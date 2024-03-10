@@ -47,7 +47,7 @@ public class InterfacesEx19 {
 		Games g = factory.getGames();
 		g.play();
 	}
-	public static void main(String [] args) {
+	public void Dice() {
 		playGame(new CoinTossFactory());
 		playGame(new DiceThrowFactory());			
 	}

@@ -33,7 +33,7 @@ public class InterfacesEx12 {
 	public static void v(CanFly x) { x.fly(); }
 	public static void c(CanClimb x) { x.climb(); }	
 	public static void w(ActionCharacter x) { x.fight(); }
-	public static void main(String[] args) {
+	public void ro() {
 		Hero h = new Hero();
 		t(h); // Treat it as a CanFight
 		u(h); // Treat it as a CanSwim

@@ -38,7 +38,7 @@ class SquirrelEx7 implements RodentEx7 {
 public class InterfacesEx7 {
 	private static InterfacesEx7_backup gen = new InterfacesEx7_backup();
     private static void print(String string) {}
-	public static void main(String[] args) {
+	public void nt() {
 		
 		RodentEx7[] rodents = new RodentEx7[10];
 		for(RodentEx7 r : rodents) {

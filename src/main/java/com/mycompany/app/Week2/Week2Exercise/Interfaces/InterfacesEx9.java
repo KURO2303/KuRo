@@ -55,7 +55,7 @@ public class InterfacesEx9 {
 		for(Instrument i : e)
 			tune(i);
 	}
-	public static void main(String[] args) {
+	public void chestra() {
 		Instrument[] orchestra = {
 			new Wind(),
 			new Percussion(),
