@@ -1,5 +1,6 @@
 package com.mycompany.app.Week2.Week2Exercise.Interfaces;
 
+import com.mycompany.app.Week2.Week2Exercise.Polymorphism.Note;
 abstract class Instrument {
 	@SuppressWarnings("unused")
 	private int i; 
