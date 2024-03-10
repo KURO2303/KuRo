@@ -1,6 +1,6 @@
 package com.mycompany.app.Week2.Week2Exercise.Interfaces;
 
-abstract class RodentEx7 {
+abstract class RodentEx1 {
 	@SuppressWarnings("unused")
 	private String name = "Rodent";
 	abstract protected void eat(); 
@@ -9,7 +9,7 @@ abstract class RodentEx7 {
 	abstract public String toString(); 
 }
 
-class MouseEx7 extends RodentEx7 {
+class MouseEx1 extends RodentEx1 {
 	private String name = "Mouse";
 	protected void eat() { println("Mouse.eat()"); }
 	private void println(String string) {}
@@ -18,7 +18,7 @@ class MouseEx7 extends RodentEx7 {
 	public String toString() { return name; }
 }
 
-class RatEx7 extends RodentEx7 {
+class RatEx1 extends RodentEx1 {
 	private String name = "Rat";
 	protected void eat() { println("Rat.eat()"); }
 	private void println(String string) {}
@@ -27,7 +27,7 @@ class RatEx7 extends RodentEx7 {
 	public String toString() { return name; }
 }
 
-class SquirrelEx7 extends RodentEx7 {
+class SquirrelEx1 extends RodentEx1 {
 	private String name = "Squirrel";
 	protected void eat() { println("Squirrel.eat()"); }
 	private void println(String string) {}
@@ -37,13 +37,13 @@ class SquirrelEx7 extends RodentEx7 {
 }
 
 public class InterfacesEx1 {
-	private static InterfacesEx1_backup gen = new InterfacesEx1_backup();
+	private static InterfacesEx7_backup gen = new InterfacesEx7_backup();
     private static void println(String string) {
     }
 	public static void main(String[] args) {
-		RodentEx7 rodents = new RodentEx7[];
-		for(RodentEx7 r : rodents) {
-			r = gen.next();
+		RodentEx1[] rodents = new RodentEx1[10];
+		for(RodentEx1 r : rodents) {
+			r = (RodentEx1) gen.next();
 			println(r + ": ");
 			r.eat();
 			r.run();

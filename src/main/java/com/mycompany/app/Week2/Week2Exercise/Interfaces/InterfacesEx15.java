@@ -1,21 +1,21 @@
 package com.mycompany.app.Week2.Week2Exercise.Interfaces;
 
-interface History {
+interface History15 {
 	void u();
 	void v();
 }
 
-interface Exam {
+interface Exam15 {
 	void w();
 	void x();
 }
 
-interface Labs {
+interface Labs15 {
 	void y();
 	void z();
 }
 
-interface Workup extends History, Exam, Labs {
+interface Workup extends History15, Exam15, Labs15 {
 	void zz();
 }
 
@@ -39,9 +39,9 @@ class Anesthesiologist extends Doctor implements Workup {
 }
 
 public class InterfacesEx15 {
-	public static void m1(History history) { history.v(); }
-	public static void m2(Exam exam) { exam.w(); }
-	public static void m3(Labs labs) { labs.y(); } 
+	public static void m1(History15 history) { history.v(); }
+	public static void m2(Exam15 exam) { exam.w(); }
+	public static void m3(Labs15 labs) { labs.y(); } 
 	public static void m4(Workup workup) { workup.zz(); }
 	public static void main(String[] args) {
 		Anesthesiologist anes = new Anesthesiologist();
