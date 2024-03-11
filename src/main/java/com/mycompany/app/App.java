@@ -1,6 +1,6 @@
 package com.mycompany.app;
 import com.mycompany.app.Week2.Week2Exercise.InitializationCleanup.*;
-import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx1;
+import com.mycompany.app.Week2.Week2Exercise.InitializationCleanup.InitializationCleanupEx2;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx12;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx19;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx2;
@@ -11,6 +11,7 @@ import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx7;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx8;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx9;
 import com.mycompany.app.Week2.Week2Exercise.Interfaces.InterfacesEx11.InterfacesEx11;
+import com.mycompany.app.Week1.EX5;
 import com.mycompany.app.Week2.Week2ClassPractice.book;
 import com.mycompany.app.Week2.Week2ClassPractice.recursion;
 import com.mycompany.app.Week2.Week2ClassPractice.time;
@@ -30,14 +31,55 @@ import com.mycompany.app.Week3.Week3ClassPractice.DisruptLecture;
 import com.mycompany.app.Week3.Week3ClassPractice.GlyphTest;
 import com.mycompany.app.Week3.Week3ClassPractice.TestArithmetic;
 import com.mycompany.app.Week3.Week3ClassPractice.Transmogrify;
+import com.mycompany.app.Week1.*;
 
 //import Debug.KUROdebug;
 //import Debugoff.KUROdebug;
 
 public class App {
     public static void main(String[] args) {
-      InitializationCleanupEx3 temp = new InitializationCleanupEx3();
-        temp.Messenger();
+
+        // WEEK 1
+        EX1 temp2 = new EX1();
+        temp2.count();
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX2 ran = new EX2();
+        System.out.println("EX 2: So sanh so ngau nhien");
+        ran.dom();
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX4 number = new EX4();
+        System.out.println("EX 4: So nguyen to");
+        number.E_N(); 
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX5 in = new EX5();
+        System.out.println("EX 5: So nhi phan");
+        in.inter();
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX7 count2 = new EX7();
+        System.out.println("EX 7: Dem den 99 thi stop");
+        count2.stop();
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX8 case1 = new EX8();
+        System.out.println("EX 8: Tao case");
+        case1.hello();
+        System.out.println(" ");
+        System.out.println(" ");
+
+        EX9 fabo = new EX9();
+        System.out.println("EX 9: Tim so fabonacsi");
+        fabo.fin();
+        System.out.println(" ");
+        System.out.println(" ");
 
         //week 2 class practice
         book myObj = new book();
@@ -60,6 +102,7 @@ public class App {
         //EXERCISE 1
         AccessControl_EX1 c = new AccessControl_EX1();
         c.MyClass();
+        System.out.println(" ");
 
         //EXERCISE 3
         //KUROdebug.debug("KURO");
@@ -85,8 +128,109 @@ public class App {
         //EXERCISE 7
         AccessControl_EX7 widget = new AccessControl_EX7();
         widget.K();
+        System.out.println(" ");
 
+        //Initialization Cleanup
 
+        //EXERCISE 2
+        InitializationCleanupEx2 D = new InitializationCleanupEx2();
+        D.Print();
+        System.out.println(" ");
+
+        //EXERCISE 3
+        InitializationCleanupEx3 temp = new InitializationCleanupEx3();
+        temp.Messenger();
+        System.out.println(" ");
+
+        //EXERCISE 4
+        InitializationCleanupEx4 pri = new InitializationCleanupEx4();
+        pri.nter4();
+        System.out.println(" ");
+
+        //EXERCISE 5
+        InitializationCleanupEx5 my = new InitializationCleanupEx5();
+        my.dog();
+        System.out.println(" ");
+
+        //EXERCISE 6
+        InitializationCleanupEx6 bark = new InitializationCleanupEx6();
+        bark.theDog();
+        System.out.println(" ");
+
+        //EXERCISE 7
+        InitializationCleanupEx7 Had = new InitializationCleanupEx7();
+        Had.d1();
+        System.out.println(" ");
+
+        //EXERCISE 8
+        InitializationCleanupEx8 me = new InitializationCleanupEx8();
+        me.thod();
+        System.out.println(" ");
+
+        //EXERCISE 9
+        InitializationCleanupEx9 de = new InitializationCleanupEx9();
+        de.mo1();
+        System.out.println(" ");
+
+        //EXERCISE 10
+        InitializationCleanupEx10 fina = new InitializationCleanupEx10();
+        fina.lize();
+        System.out.println(" ");
+
+        //EXERCISE 12
+        InitializationCleanupEx12 big = new InitializationCleanupEx12();
+        big.tank();
+        System.out.println(" ");
+        
+        //EXERCISE 13
+        InitializationCleanupEx13 CU = new InitializationCleanupEx13();
+        CU.P();
+        System.out.println(" ");
+
+        //EXERCISE 14
+        InitializationCleanupEx14 Sta = new InitializationCleanupEx14();
+        Sta.tic();
+        System.out.println(" ");
+
+        //EXERCISE 15
+        InitializationCleanupEx15 tes = new InitializationCleanupEx15();
+        tes.ter();
+        System.out.println(" ");
+
+        //EXERCISE 16
+        InitializationCleanupEx16 Clean = new InitializationCleanupEx16();
+        Clean.upEx16();
+        System.out.println(" ");
+
+        //EXERCISE 17
+        InitializationCleanupEx17 In17 = new InitializationCleanupEx17();
+        In17.it();
+        System.out.println(" ");
+
+        //EXERCISE 18
+        InitializationCleanupEx18 In18 = new InitializationCleanupEx18();
+        In18.it18();
+        System.out.println(" ");
+
+        //EXERCISE 19
+        InitializationCleanupEx19 Shows = new InitializationCleanupEx19();
+        Shows.tring();
+        System.out.println(" ");
+
+        //EXERCISE 20
+        InitializationCleanupEx20 Clea = new InitializationCleanupEx20();
+        Clea.nup20(args);
+        System.out.println(" ");
+
+        //EXERCISE 21
+        InitializationCleanupEx21 Ha = new InitializationCleanupEx21();
+        Ha.dd21();
+        System.out.println(" ");
+
+        //EXERCISE 22
+        InitializationCleanupEx22 Hadd = new InitializationCleanupEx22();
+        Hadd.Ex22();
+        System.out.println(" ");
 
         //REUSING CLASSESS
         //EXERCISE 1
@@ -135,10 +279,6 @@ public class App {
 
 
         //Interfaces
-        //EXERCISE 1
-        InterfacesEx1 E = new InterfacesEx1();
-        E.X1();
-        System.out.println(" ");
 
         //EXERCISE 2
         InterfacesEx2 Lo = new InterfacesEx2();

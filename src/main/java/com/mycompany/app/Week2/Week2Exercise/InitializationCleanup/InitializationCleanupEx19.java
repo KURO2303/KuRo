@@ -6,7 +6,7 @@ public class InitializationCleanupEx19 {
 			System.out.print(s + " ");
 		System.out.println();
 	}
-	public static void main(String[] args) {
+	public void tring() {
 		showStrings("one", "two", "three", "four");
 		showStrings(new String[]{"1", "2", "3", "4"});
 	}

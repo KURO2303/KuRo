@@ -5,7 +5,7 @@ public class InitializationCleanupEx7 {
         System.out.println("Hello Mrs.Thu, I'm Duc!");
     }
 
-    public static void main(String[] args) {
+    public void d1() {
         InitializationCleanupEx7 demo = new InitializationCleanupEx7();
         demo.Hadd1();
     }

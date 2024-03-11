@@ -14,7 +14,7 @@ public class InitializationCleanupEx9 {
         System.out.println("Default value = 0");
     }
     @SuppressWarnings("unused")
-    public static void main(String[] args) {
+    public void mo1() {
         InitializationCleanupEx9 demo1 = new InitializationCleanupEx9();
         InitializationCleanupEx9 demo2 = new InitializationCleanupEx9(185);
     }

@@ -9,7 +9,7 @@ public class InitializationCleanupEx6 {
     public void bark(double pitch, String sound){
         System.out.println("Howl: "  + pitch + sound);
     }
-    public static void main(String[] args) {
+    public void theDog() {
         InitializationCleanupEx6 Dog = new InitializationCleanupEx6();
         Dog.bark(3,"Woof!");
         Dog.bark(1.5, " Howling!");

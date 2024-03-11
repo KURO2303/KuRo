@@ -28,7 +28,7 @@ class Cups {
 public class InitializationCleanupEx13 {
     private static void print(String string){
     }
-	public static void main(String[] args) {
+	public void P() {
 		print("Inside main()");
 		Cups.cup1.Hadd1(99); // (1)		
 	}

@@ -14,7 +14,7 @@ public void fill(){
 	}
 }
 public class InitializationCleanupEx12 {
-	public static void main(String[] args){
+	public void tank(){
 		Tank bigtank = new Tank();
 		System.out.println("Fillness tank is: " + bigtank.filled);
 		bigtank.fill();

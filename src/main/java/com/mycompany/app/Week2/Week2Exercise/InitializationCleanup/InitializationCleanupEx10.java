@@ -4,7 +4,7 @@ public class InitializationCleanupEx10 {
     public void finalize(){
         System.out.println("Finalize methods called");
     }
-    public static void main(String[] args) {
+    public void lize() {
         @SuppressWarnings("unused")
         InitializationCleanupEx10 demo = new InitializationCleanupEx10();
         demo = null;// Mark the object for garbage collection

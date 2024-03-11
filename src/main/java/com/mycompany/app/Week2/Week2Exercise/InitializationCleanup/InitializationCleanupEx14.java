@@ -19,7 +19,7 @@ class Go {
 public class InitializationCleanupEx14 {
 	private static void print(String string) {
 	}
-	public static void main(String[] args) {
+	public void tic() {
 		print("Inside main()");
 		Go.how();
 		print("Go.s1: " + Go.s1);		

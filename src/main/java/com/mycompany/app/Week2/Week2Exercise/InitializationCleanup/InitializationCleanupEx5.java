@@ -16,7 +16,7 @@ public class InitializationCleanupEx5{
             System.out.println( sound);
         }
     
-        public static void main(String[] args) {
+        public void dog() {
             InitializationCleanupEx5 myDog = new InitializationCleanupEx5();
     
             myDog.bark(3); 

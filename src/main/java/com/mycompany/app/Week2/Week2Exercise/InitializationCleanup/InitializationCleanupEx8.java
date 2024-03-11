@@ -9,7 +9,7 @@ public class InitializationCleanupEx8 {
     public void method2(){
         System.out.println("Second try!");
     }
-    public static void main(String[] args) {
+    public void thod() {
         InitializationCleanupEx8 test = new InitializationCleanupEx8();
         test.method1();
     }

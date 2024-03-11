@@ -5,7 +5,7 @@ public class InitializationCleanupEx22 {
 		ONE, FIVE, TEN, TWENTY, FIFTY, HUNDRED
 	}
     Hadd1 b;
-	public static void main(String[] args) {
+	public void Ex22() {
 		for(Hadd1 b : Hadd1.values()) {
 			System.out.print("Worth: ");
 			switch(b) {

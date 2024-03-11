@@ -6,7 +6,7 @@ class InitTest18 {
 	}
 }
 public class InitializationCleanupEx18 {
-    public static void main(String[] args) {
+    public void it18() {
 		InitTest18[] it = new InitTest18[5];
 		for(int i = 0; i < it.length; i++)
 			it[i] = new InitTest18(Integer.toString(i));

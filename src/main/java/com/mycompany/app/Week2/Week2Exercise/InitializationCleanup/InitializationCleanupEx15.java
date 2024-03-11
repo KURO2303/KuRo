@@ -1,7 +1,7 @@
 package com.mycompany.app.Week2.Week2Exercise.InitializationCleanup;
 
 public class InitializationCleanupEx15 {
-    public static void main(String[] args) {
+    public void ter() {
 		new Tester();				
 	}
 }
